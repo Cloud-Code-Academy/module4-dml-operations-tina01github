@@ -118,7 +118,7 @@ public with sharing class DMLOperations {
 
         // Update the Opportunity's stage
         retrievedOpp.StageName = newStage;
-
+        
         // Update the Opportunity in the database
         update retrievedOpp;
 
